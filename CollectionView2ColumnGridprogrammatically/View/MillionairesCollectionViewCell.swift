@@ -18,6 +18,7 @@ class MillionairesCollectionViewCell: UICollectionViewCell {
           nameLabel.text = "Steve Jobs"
           nameLabel.font = UIFont.systemFont(ofSize: 16, weight: .semibold)
           netWorthLabel.text = "$1 Trillion"
+          netWorthLabel.numberOfLines = 0
           netWorthLabel.font = UIFont.systemFont(ofSize: 14)
           netWorthLabel.textColor = .lightGray
       }
@@ -35,13 +36,13 @@ class MillionairesCollectionViewCell: UICollectionViewCell {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(stackView)
         
+        //stackView layout
         stackView.topAnchor.constraint(equalTo: topAnchor).isActive = true
         stackView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         stackView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         stackView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
         
     }
-    
     
     override init(frame: CGRect) {
            super.init(frame: frame)

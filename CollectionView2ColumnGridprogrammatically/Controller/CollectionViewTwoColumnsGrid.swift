@@ -64,6 +64,7 @@ class CollectionViewTwoColumnsGrid: UICollectionViewController, UICollectionView
         return cell
     }
     
+
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let width = (view.frame.width - 3 * 16) / 2
