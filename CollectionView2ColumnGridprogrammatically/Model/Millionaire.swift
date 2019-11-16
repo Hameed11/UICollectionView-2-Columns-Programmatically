@@ -9,7 +9,7 @@
 import UIKit
 
 struct Millionaire {
-    let profileImage: UIImage
+    let profileImage: String
     let name: String
     let netWorth: String
 }
