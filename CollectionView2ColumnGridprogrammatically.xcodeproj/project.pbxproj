@@ -13,6 +13,8 @@
 		736071C2237F7E210087F23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736071C0237F7E210087F23D /* Main.storyboard */; };
 		736071C4237F7E220087F23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736071C3237F7E220087F23D /* Assets.xcassets */; };
 		736071C7237F7E220087F23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736071C5237F7E220087F23D /* LaunchScreen.storyboard */; };
+		736071CF237F816E0087F23D /* CollectionViewTwoColumnsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736071CE237F816E0087F23D /* CollectionViewTwoColumnsGrid.swift */; };
+		736071D4237F857C0087F23D /* Millionaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736071D3237F857C0087F23D /* Millionaire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		736071C3237F7E220087F23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736071C6237F7E220087F23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736071C8237F7E220087F23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736071CE237F816E0087F23D /* CollectionViewTwoColumnsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTwoColumnsGrid.swift; sourceTree = "<group>"; };
+		736071D3237F857C0087F23D /* Millionaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Millionaire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		736071B9237F7E210087F23D /* CollectionView2ColumnGridprogrammatically */ = {
 			isa = PBXGroup;
 			children = (
+				736071D2237F84090087F23D /* Model */,
+				736071D1237F84010087F23D /* View */,
+				736071D0237F83F10087F23D /* Controller */,
 				736071BA237F7E210087F23D /* AppDelegate.swift */,
 				736071BC237F7E210087F23D /* SceneDelegate.swift */,
-				736071BE237F7E210087F23D /* ViewController.swift */,
 				736071C0237F7E210087F23D /* Main.storyboard */,
 				736071C3237F7E220087F23D /* Assets.xcassets */,
 				736071C5237F7E220087F23D /* LaunchScreen.storyboard */,
 				736071C8237F7E220087F23D /* Info.plist */,
 			);
 			path = CollectionView2ColumnGridprogrammatically;
+			sourceTree = "<group>";
+		};
+		736071D0237F83F10087F23D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				736071BE237F7E210087F23D /* ViewController.swift */,
+				736071CE237F816E0087F23D /* CollectionViewTwoColumnsGrid.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		736071D1237F84010087F23D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		736071D2237F84090087F23D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				736071D3237F857C0087F23D /* Millionaire.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				736071BF237F7E210087F23D /* ViewController.swift in Sources */,
+				736071D4237F857C0087F23D /* Millionaire.swift in Sources */,
+				736071CF237F816E0087F23D /* CollectionViewTwoColumnsGrid.swift in Sources */,
 				736071BB237F7E210087F23D /* AppDelegate.swift in Sources */,
 				736071BD237F7E210087F23D /* SceneDelegate.swift in Sources */,
 			);
